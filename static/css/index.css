@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #006b3c;
+    font-size: 30px;
+    
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.member_list{
+    width: 300px;
+    height: 250px;
+    margin: auto;
+}
+.centered-form-wrapper {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 500px;
+}
+.form-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-container button.encrypt {
+    background-color: #4CAF50;
+    color: white;
+}
+.form-container button.decrypt {
+    background-color: #2196F3;
+    color: white;
+}
+.form-container button.reset {
+    background-color: #f44336;
+    color: white;
+}

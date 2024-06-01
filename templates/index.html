@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='css/index.css')}}"
+    />
+    <title>flask Application</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>IS Project</h1>
+      <h2>Group Members</h2>
+      <div class="member_list">
+        <ul>
+          <li><strong>Muneeb Saleem (2030-0060)</strong></li>
+          <li><strong>Abdul Rehman Portal (2030-0215)</strong></li>
+        </ul>
+      </div>
+    </div>
+    <div class="centered-form-wrapper">
+      <div class="form-container">
+        <h2>Encryption</h2>
+        <form method="post" enctype="multipart/form-data">
+          <input type="text" name="text" placeholder="Enter text" required />
+          <input
+            type="password"
+            name="password"
+            placeholder="Enter password"
+            required
+          />
+          <input type="file" name="image" accept="image/*" required />
+          <button type="submit" name="action" value="encrypt" class="encrypt">
+            Encrypt
+          </button>
+          <button type="submit" name="action" value="decrypt" class="decrypt">
+            Decrypt
+          </button>
+          <button type="reset" class="reset">Reset</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
