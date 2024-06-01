@@ -62,3 +62,9 @@ h2{
     background-color: #f44336;
     color: white;
 }
+.result{
+    width: 500px;
+    height: 200px;
+    margin-top: 70px;
+    border: 3px solid black;
+}
